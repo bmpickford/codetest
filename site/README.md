@@ -2,7 +2,7 @@
 
 ## Using docker to run
 
-Running `./build` followed by `./run` should be sufficient to setup and run the site using docker. I am however not overly experienced with docker so I may have done something incorrectly
+Running `./build` followed by `./run` should be sufficient to setup and run the site using docker. I am however not overly experienced with docker so I may have done something incorrectly. If this is the case, both node and npm will be required, then to run simple use `node app.js` after navigating to the site folder
 
 ## Dependencies
 
