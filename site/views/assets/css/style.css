@@ -1,0 +1,89 @@
+html, body {
+    font-size: 11px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+  color: red;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    padding-top: 1.7rem;
+    margin: auto;
+    top: 0;
+    height: 100%;
+    width:95%;
+    overflow-y: auto;
+}
+
+.modal-content {
+    margin-left: 2rem;
+    z-index: 1;
+    background-color: #fefefe;
+    box-shadow: 0 4px 0.7rem 0 rgba(0,0,0,0.2),0 6px 1.7rem 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #0579C1;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #0579C1;
+    color: white;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clear {
+    clear:both;
+}
+
+.bottom-border {
+    border-bottom: 1px solid black;
+}
+
+.info-component {
+    display: inline-block;
+    margin: 3px;
+}
+
+.links {
+    text-align: center;
+}
+
+.large-link {
+    font-size: 38px;
+    padding: 18px;
+}
+
+.modal-table {
+    padding-bottom:50px;
+}
